@@ -1,10 +1,10 @@
 <%= form_for @player, html: {class: "form-horizontal"} do |f| %>
   <%= f.error_messages %>
 
-  <h1>Player</h1>
+  <h1>Spiller</h1>
   
   <div class="control-group">
-    <%= f.label :name, class: "control-label" %>
+    <%= f.label :name, "Navn", class: "control-label" %>
     <div class="controls">
       <%= f.text_field :name, class: "input-xlarge" %>
     </div>
@@ -18,12 +18,12 @@
   </div>
 
   <div class="form-actions">
-    <%= f.submit class: "btn btn-primary" %>
-    <%= link_to "Cancel", root_path, class: "btn btn-warning" %>
+    <%= f.submit "Opret Spiller", class: "btn btn-primary" %>
+    <%= link_to "Annuller", root_path, class: "btn btn-warning" %>
   </div>
 
   <small class="description attribution">
-    Avatar provided by <a href="http://gravatar.com/">Gravatar</a>, a global avatar service.
+    Hvis du har et profil billede på <a href="http://gravatar.com/">Gravatar</a>, bruger vi det. 
   </small>
 
 <% end %>

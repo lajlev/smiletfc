@@ -125,6 +125,8 @@ header
     @include transform(translateY(-20px))
 #main
   padding: 20px
+.site-footer
+  padding: 20px
 
 fieldset
   border: none
@@ -354,11 +356,18 @@ select
     font-size: 1.8rem
 
   header a.brand
-    left: 50%
-    margin-left: -30px
+    
   #games-list .game-list-item
     display: block
     width: 100%
     padding: 0 !important
     a
       min-height: initial
+
+.only-admin,
+.hide
+  display: none
+
+#admin-login
+  color: #ddd
+  font-size: 10px

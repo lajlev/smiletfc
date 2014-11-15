@@ -4,14 +4,14 @@
 
 <div class="row">
   <div class="span6">
-    <h2>Head-to-Head Records</h2>
+    <h2>Rangliste</h2>
     <table id='ratings'>
       <thead>
         <tr>
-          <th>Player</th>
-          <th>Rating</th>
-          <th><abbr title='Wins'>W</abbr></th>
-          <th><abbr title='Losses'>L</abbr></th>
+          <th>Spiller</th>
+          <th>Point</th>
+          <th><abbr title='Vundet'>V</abbr></th>
+          <th><abbr title='Tabte'>T</abbr></th>
         </tr>
       </thead>
 
@@ -46,7 +46,7 @@
   </div>
 
   <div class="span6">
-    <h2>Recent Games</h2>
+    <h2>Seneste Kampe</h2>
     <ul id='results'>
       <% @player.results.for_game(@game).limit(15).order('created_at desc').each do |result| %>
         <li>
@@ -54,15 +54,15 @@
           -
           <% if result.winners.include?(@player) %>
             <% if result.losers.empty? %>
-              Tied
+              Uafgjort
             <% else %>
-              Won against <strong><%= result.losers.map(&:name).join(", ") %></strong>
+              Vandt over <strong><%= result.losers.map(&:name).join(", ") %></strong>
             <% end %>
           <% else %>
-            Lost to <strong><%= result.winners.map(&:name).join(", ") %></strong>
+            Tabte til <strong><%= result.winners.map(&:name).join(", ") %></strong>
           <% end %>
           <% if result.most_recent? -%>
-            <%= link_to "Delete", game_result_path(@game, result), class: "btn btn-danger", method: :delete, confirm: "Are you sure?" %>
+            <%= link_to "Slet", game_result_path(@game, result), class: "btn btn-danger", method: :delete, confirm: "Er du sikker?" %>
           <% end -%>
         </li>
       <% end %>

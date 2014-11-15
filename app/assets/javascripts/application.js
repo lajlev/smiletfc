@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require chosen.min
 //= require_tree .
+
+$(document).ready(function($) {
+  $('#admin-login').click(function(e) {
+    $('.only-admin').fadeIn()
+  })
+})

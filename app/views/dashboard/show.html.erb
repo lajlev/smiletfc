@@ -1,8 +1,8 @@
 <div class="row-fluid">
 
 	<div class='span8'>
-		<h1>Elovation Games</h1>
-		<%= link_to "New Game", new_game_path, class: "btn btn-primary" %>
+		<h2>Vælg Liga</h2>
+		<%= link_to "Ny Liga", new_game_path, class: "btn btn-primary only-admin" %>
 
 		<ul id='games-list'>
 		<% Game.all.sort_by(&:name).each do |game| %>
@@ -10,16 +10,16 @@
 		    <%= link_to game_path(game) do %>
 		    	<h3 class='game-title'><%= game.name %></h3>
 		    	<ul class='game-params'>
-  		    	<li class='rating-type'><%= game.rating_type %> – <%= game.allow_ties ? 'Ties allowed' : 'No ties' %></li>
-            <li class='num-players'><%= game.players.length %> players</li>
-            <li class='games-played'><%= game.results.length %> games played</li>
+  		    	<li class='rating-type hide'><%= game.rating_type %> – <%= game.allow_ties ? 'Ties allowed' : 'No ties' %></li>
+            <li class='num-players'><%= game.players.length %> spillere</li>
+            <li class='games-played'><%= game.results.length %> kampe spillet</li>
 
 		    	</ul>
 
           <% result = game.recent_results.limit(1).first %>
           <% if result %>
             <div class='recent-result'>
-              <h4>Last game</h4>
+              <h4>Sidste kamp</h4>
               <div class='description'>
 
                 <% result.teams.each_with_index do |team, i| %>
@@ -29,7 +29,7 @@
                     </span>
                   <% end %>
                   <% if i == 0 %>
-                    defeated
+                    Vandt over
                   <% end %>
                 <% end %>
                 <br/>
@@ -47,8 +47,8 @@
 
 	<div class='span4'>
 		<div class='well'>
-			<h2>Players</h2>
-			<%= link_to "New Player", new_player_path, class: "btn" %>
+			<h2>Spillere</h2>
+			<%= link_to "Opret Spiller", new_player_path, class: "btn" %>
 
 			<ul id='players-list'>
 				<% Player.all.sort_by(&:name).each do |player| %>
