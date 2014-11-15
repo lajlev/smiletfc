@@ -14,12 +14,10 @@
     <% if i == 0 %>
       <small>vandt over</small>
     <% end %>
-
   <% end %>
 
   <% if show_game %>
-    in
-    <strong><%= link_to result.game.name, result.game %></strong>
+    <strong>(<%= link_to result.game.name, result.game %>)</strong>
   <% end %>
   <time><%= format_time(result.created_at) %></time>
 

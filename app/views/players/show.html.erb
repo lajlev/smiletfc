@@ -6,7 +6,7 @@
 <section class="action-buttons only-admin">
   <span><%= link_to 'Rediger spiller', edit_player_path(@player), class: "btn btn-primary" %></span>
   <% if @player.results.empty? %>
-    <span><%= link_to "Slet", player_path(@player), method: :delete, confirm: "Are you sure?", class: "btn btn-danger" %></span>
+    <span><%= link_to "Slet", player_path(@player), method: :delete, confirm: "Er du sikker?", class: "btn btn-danger" %></span>
   <% end %>
 </section>
 
