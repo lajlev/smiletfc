@@ -1,9 +1,9 @@
 <h1><%= @game.name %></h1>
 
 <section class="action-buttons only-admin">
-  <%= link_to 'Edit', edit_game_path(@game), class: "btn" %>
+  <%= link_to 'Rediger', edit_game_path(@game), class: "btn" %>
   <% if @game.results.empty? %>
-    <%= link_to "Delete", game_path(@game), method: :delete, confirm: "Are you sure?", class: "btn btn-danger" %>
+    <%= link_to "Slet", game_path(@game), method: :delete, confirm: "Er du sikker?", class: "btn btn-danger" %>
   <% end %>
 </section>
 
@@ -35,6 +35,6 @@
         <%= render partial: 'rating', collection: @game.all_ratings.select(&:active?) %>
       </tbody>
     </table>
-    <%= link_to "Vis alle", game_ratings_path(@game) %>
+    <%= link_to "Vis hele ranglisten", game_ratings_path(@game) %>
   </div>
 </div>

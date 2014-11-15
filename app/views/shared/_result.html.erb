@@ -12,7 +12,7 @@
     <% end %>
 
     <% if i == 0 %>
-      <small>defeats</small>
+      <small>vandt over</small>
     <% end %>
 
   <% end %>
@@ -25,7 +25,7 @@
 
 
   <% if result.most_recent? -%>
-    <%= link_to "Delete", game_result_path(result.game, result), class: "btn btn-danger", method: :delete, confirm: "Are you sure?" %>
+    <%= link_to "Slet", game_result_path(result.game, result), class: "btn btn-danger", method: :delete, confirm: "Er du sikker?" %>
   <% end -%>
 
 </li>

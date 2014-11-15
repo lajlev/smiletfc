@@ -1,22 +1,21 @@
 <%= form_for [@game, @result], html: {id: "form-results"} do |f| %>
   <%= f.error_messages %>
-  <h2>Tilføj Kamp</h2>
+
   <% @result.teams.each.with_index do |team, index| %>
-    <%= select "result[teams][#{index}]", "Spillere", player_options, {include_blank: ''}, class: "players", multiple: @game.max_number_of_players_per_team != 1, "data-placeholder" => "Hold #{index + 1}" %>
+    <%= select "result[teams][#{index}]", "players", player_options, {include_blank: ''}, class: "players", multiple: @game.max_number_of_players_per_team != 1, "data-placeholder" => "Hold #{index + 1}" %>
 
     <% if index != @result.teams.size - 1 %>
-      
       <% if @game.allow_ties %>
         <%= select "result[teams][#{index}]", :relation, ["vandt over", "uafgjort"], {} %>
       <% else %>
         <%= hidden_field_tag "result[teams][#{index}][relation]", :defeats, {} %>
-        Vandt over:
+        <span class="defeated">vandt over</span> 
       <% end %>
     <% end %>
   <% end %>
 
   <div class='form-actions'>
-    <%= f.submit class: "btn btn-primary", value: 'Gem kamp' %>
+    <%= f.submit class: "btn btn-primary", value: 'Gem ' %>
   </div>
   
 <% end %>
