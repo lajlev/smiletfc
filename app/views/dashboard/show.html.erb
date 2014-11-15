@@ -48,7 +48,7 @@
 	<div class='span4'>
 		<div class='well'>
 			<h2>Spillere</h2>
-			<%= link_to "Opret Spiller", new_player_path, class: "btn" %>
+			<%= link_to "Opret Spiller", new_player_path, class: "btn only-admin" %>
 
 			<ul id='players-list'>
 				<% Player.all.sort_by(&:name).each do |player| %>

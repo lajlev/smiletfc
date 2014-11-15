@@ -1,1 +1,624 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"fl",
+				"fl-l	float: left;"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"css",
+				"hasClass"
+			],
+			[
+				"ti",
+				"ti--	text-indent: -9999px;"
+			],
+			[
+				"m",
+				"mt-a	margin-top: auto;"
+			],
+			[
+				"br",
+				"border-radius"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pos",
+				"pos-r	position: relative;"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"alert",
+				"alert-success"
+			],
+			[
+				"tah",
+				"thatChild"
+			],
+			[
+				"ste",
+				"stepImageText"
+			],
+			[
+				"de",
+				"deviceGroup"
+			],
+			[
+				"fade",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"flo",
+				"flow-name"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"text",
+				"textAreaTxt"
+			],
+			[
+				"campa",
+				"campaigns-view"
+			],
+			[
+				"bgs",
+				"bgsz-cv	background-size: cover;"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"selected_items":
+		[
+			[
+				"sbt",
+				"SBT: Kill SBT"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 417.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/partials/_media_list.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/partials/_input_search.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/_frontpage/featuredGuides.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/manuals/view.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/guides/view.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/pages/frontpage.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/_topmenu/_locales.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/guides/_sidebar.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/util/arrow.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/layout/_main.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/frontpage.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/devices/search.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/bootstrap/variables.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/partials/_meta.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/controllers/GuidesController.scala",
+		"/Users/lajlev/web/device-guides/device-guides/public/javascripts/app/pages/_searchGuides.js",
+		"/Users/lajlev/web/device-guides/device-guides/public/javascripts/app/helpers/appResizeEvent.js",
+		"/Users/lajlev/web/device-guides/device-guides/conf/application.conf",
+		"/Users/lajlev/web/device-guides/device-guides/public/javascripts/app/helpers/ajaxLinks.js",
+		"/Users/lajlev/web/device-guides/device-guides/conf/messages",
+		"/Users/lajlev/web/device-guides/device-guides/app/models/GuideDomain.scala",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/pages/devices.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/guides/_view/_step.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/pages/guide.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/guides/notFound.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/guides/noneFound.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/guides/_view/_coverImage.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/main.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/partials/_select_filter.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/guides/list.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/public/javascripts/plugins/iscroll-lte-ie7.js",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/LinkHelper.scala",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/_topmenu/_items.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/guides/_view/_stepImageText.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/util/OneTimers/images-less-than-300px.2.txt",
+		"/Users/lajlev/web/device-guides/device-guides/conf/aws-s3/index.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/vendor/bootstrap/media.less",
+		"/Users/lajlev/web/device-guides/device-guides/public/javascripts/app/main-edit.js",
+		"/Users/lajlev/web/device-guides/device-guides/public/javascripts/app/pages/frontpage.js",
+		"/Users/lajlev/web/device-guides/device-guides/public/javascripts/app/pages/devicesSearch.js",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/devices/_list.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/public/javascripts/app/pages/_shareGuideLink.js",
+		"/Users/lajlev/web/device-guides/device-guides/app/models/ManualDomain.scala",
+		"/Users/lajlev/web/device-guides/device-guides/app/util/TextSearchEngine.scala",
+		"/Users/lajlev/web/device-guides/device-guides/conf/securesocial.conf",
+		"/Users/lajlev/web/device-guides/device-guides/conf/Dockerfile",
+		"/Users/lajlev/web/device-guides/device-guides/conf/deviceatlas_ehcache.xml",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/bootstrap/type.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/partials/_aside.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/layouts/main.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/vendor/bootstrap/navs.less",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/vodacom.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/javascripts/app/main.js",
+		"/Users/lajlev/web/device-guides/device-guides/public/javascripts/vendor/detectizr-2.0.js",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/bootstrap/breadcrumbs.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/partials/_searchInput",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/bootstrap/bootstrap.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/layout/navbar.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/vendor/bootstrap/mixins.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/util/myMixins.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/bootstrap/navbar.less",
+		"/Users/lajlev/Desktop/ht.framer/app.coffee",
+		"/Users/lajlev/web/device-guides/device-guides/public/javascripts/app/helpers/manualsView.js",
+		"/Users/lajlev/web/device-guides/device-guides/public/javascripts/app/pages/guidesView.js",
+		"/Users/lajlev/.bash_profile",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/manuals/_scrollContainer.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/guides/_view/_userManualPin.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/controllers/ManualController.scala",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/main_admin.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/Global.scala",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/pages/manual.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/layout/admin.less",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/admin/operators/show.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/admin/layouts/main.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/admin/operators/editForm.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/telia.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/telia_iframe.css",
+		"/Users/lajlev/web/device-guides/device-guides/conf/dg-admin-prod.conf",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/admin/operators/listDevices.scala.html",
+		"/Users/lajlev/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/devices/show.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/callme.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/callme_iframe.css",
+		"/Users/lajlev/web/device-guides/.gitignore",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/demo.css",
+		"/Users/lajlev/web/device-guides/device-guides/conf/routes",
+		"/Users/lajlev/Desktop/test.txt",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/guides/_searchList.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/_.sublime-project",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/join.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/glo.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/gamma_iframe.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/gamma.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/etisalat.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/emt.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/econet.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/dtac.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/digicel.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/airtel.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/3.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/tmobile.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/tele2se_iframe.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/tele2se.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/tele2no_iframe.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/tele2no.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/robi.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/mtn.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/morpho.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/maxis.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/mascom.css",
+		"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators/lebara.css",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/layouts/mainBlank.scala.html",
+		"/usr/local/bin/sbt",
+		"/Users/lajlev/web/device-guides/device-guides/conf/messages.nb",
+		"/Users/lajlev/web/device-guides/device-guides/conf/messages.fr",
+		"/Users/lajlev/web/device-guides/device-guides/conf/messages.es",
+		"/Users/lajlev/web/device-guides/device-guides/conf/messages.de",
+		"/Users/lajlev/web/device-guides/device-guides/conf/messages.da",
+		"/etc/hosts",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/admin/operators/createForm.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/layout/guides.less",
+		"/Users/lajlev/web/device-guides/device-guides/project/Build.scala",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/exOperatorNotFound.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/layouts/_mainFootAssetsLoaderScripts.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/views/guides/_list.scala.html",
+		"/Users/lajlev/web/device-guides/device-guides/app/controllers/admin/OperatorsController.scala",
+		"/Users/lajlev/web/device-guides/device-guides/app/assets/less/bootstrap/forms.less",
+		"/Users/lajlev/.netrc"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+			"",
+			"/Users/lajlev/web/device-guides/device-guides/app/assets/less",
+			"",
+			"/Users/lajlev/web/device-guides/device-guides/public/javascripts",
+			"",
+			"/Users/lajlev/web/device-guides/device-guides/public/stylesheets/operators",
+			"",
+			"/Users/lajlev/web/device-guides/device-guides/app/views",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"in manual",
+			".input-search",
+			"#pageFrontpage",
+			"dropdown-language",
+			"dropdown-toggle",
+			"back-link",
+			".site-header",
+			"TODO",
+			"page-heading",
+			"hits in manual",
+			"id=\"guidesTags\"",
+			"breadcrumb hidden-phone",
+			"change device",
+			"breadc",
+			".arrow(",
+			"breadcrumb",
+			"AjaxLinks",
+			"guidesSearchResult",
+			"class=\"meta meta-mini\"",
+			".meta-mini",
+			"ve information, support an",
+			"#devicesSearchMakesAlternative",
+			"custom-select",
+			".custom-select",
+			"#devicesSearchMakes",
+			"class=\"row-fluid\"",
+			".stepContainer",
+			"stepContainer",
+			".stepIndex",
+			"guideSteps",
+			"#pageGuidesView",
+			"guideMeta",
+			"guideDescription",
+			"class=\"guideDescription\"",
+			"small",
+			"stepIndex",
+			"coverImage",
+			"class=\"loadingPlaceholder\"",
+			"img",
+			"class=\"valign-wrapper\"",
+			"subtle",
+			"gridColumns",
+			"#devices",
+			"#devicesSearchMakesAlternative",
+			"custom-select",
+			"input-search",
+			".select-custom",
+			".custom-select",
+			"select",
+			"rad",
+			"radius",
+			"border",
+			"pill",
+			"plug",
+			"#pageFrontpage",
+			"\"pageFrontpage",
+			".page-heading",
+			"page-heading",
+			"class=\"searchBar\"",
+			"#pageFrontpage",
+			"id=\"guidesSearchQuery\"",
+			"id=\"featuredGuides\"",
+			".navbar-inner",
+			".reset-filter",
+			"filter",
+			".vertical-gradient",
+			"navbar2",
+			"nav",
+			"progid",
+			"#devicesSearchResult",
+			"deviceLogo",
+			"#devices",
+			"#devices-wrapper",
+			"lead",
+			"id=\"devicesSearchMakes\"",
+			"data-device-id",
+			".navbar1",
+			".stepImageText",
+			".stepTitle",
+			".stepDescription",
+			"stepDescription",
+			"truncated",
+			".truncated",
+			".trimmed",
+			"[class*=\"stepImage\"]",
+			"color: #000000;\ntext-shadow: 0 1px #ffffff;\nwhite-space: nowrap;",
+			"Expandable placeholders",
+			"@views",
+			"Expandable placeholders",
+			"Expandable placeholders ",
+			".scrollContainer",
+			"#pageManualsView",
+			"DATABASE_USERNAME",
+			"${DATABASE_USERNAME}",
+			"Edit operator",
+			"Device guides live",
+			"number",
+			" Enable additional devices",
+			".spinner",
+			".sinner",
+			"alert",
+			"val",
+			".click",
+			"//$.",
+			"ajax",
+			"$.post",
+			"shareLink",
+			"GuidesController",
+			"id=\"topmenuHelp\"",
+			"sms",
+			".nav-pills > .active > a {",
+			".nav-pills > .active > a",
+			"a.thumbnail:hover",
+			"a.thumbnail:hover{",
+			"a.thumbnail:hover {",
+			"pageManualsViewZoom",
+			"class=\"stepImageText\"",
+			"updateDeviceSearchResults",
+			"stepImage",
+			"class*=\"stepImage\"",
+			"class*=\"stepImage\"]",
+			"stepImageText",
+			".stepImageText",
+			"@Assets.at",
+			"@com.ee.assets.controllers.routes.Assets",
+			"com.ee.assets.controllers.Assets.at",
+			"help",
+			"availableStyles"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".nav-pills > .active > a,\n.nav-pills > .active > a:hover {",
+			"@routes.Assets.at",
+			"@Assets"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sbt":
+	{
+		"height": 128.0
+	},
+	"output.sbt_error":
+	{
+		"height": 0.0
+	},
+	"project": "_.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"view",
+				"app/views/guides/view.scala.html"
+			],
+			[
+				"arro",
+				"app/assets/less/util/arrow.less"
+			],
+			[
+				"meta",
+				"app/assets/less/partials/_meta.less"
+			],
+			[
+				"guid",
+				"app/controllers/GuidesController.scala"
+			],
+			[
+				"front",
+				"app/views/frontpage.scala.html"
+			],
+			[
+				"media",
+				"app/assets/less/partials/_media_list.less"
+			],
+			[
+				"fron",
+				"app/views/frontpage.scala.html"
+			],
+			[
+				"_main",
+				"app/assets/less/layout/_main.less"
+			],
+			[
+				"sear",
+				"app/views/devices/search.scala.html"
+			],
+			[
+				"va",
+				"app/assets/less/bootstrap/variables.less"
+			],
+			[
+				"manu",
+				"app/models/ManualDomain.scala"
+			],
+			[
+				"appl",
+				"conf/application.conf"
+			],
+			[
+				"app",
+				"conf/application.conf"
+			],
+			[
+				"lay",
+				"app/views/layouts/main.scala.html"
+			],
+			[
+				"_sha",
+				"public/javascripts/app/pages/_shareGuideLink.js"
+			],
+			[
+				"rou",
+				"conf/routes"
+			],
+			[
+				"mes",
+				"conf/messages"
+			],
+			[
+				"rout",
+				"conf/routes"
+			],
+			[
+				"op",
+				"app/controllers/admin/OperatorsController.scala"
+			],
+			[
+				"layou",
+				"app/views/layouts/main.scala.html"
+			],
+			[
+				"web",
+				"app/controllers/WebContext.scala"
+			],
+			[
+				"main",
+				"app/assets/stylesheets/_main.less"
+			],
+			[
+				"build",
+				"project/build.properties"
+			],
+			[
+				"buil",
+				"project/build.properties"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 314.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
